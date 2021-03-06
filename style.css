@@ -107,3 +107,9 @@ p {
 	cursor: pointer;
 	font-weight: 700;
 }
+
+@media screen and (max-width: 400px) {
+    .username, .password, .email {
+      width: 250px;
+    }
+}
