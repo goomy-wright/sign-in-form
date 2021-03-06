@@ -2,4 +2,4 @@
 ## Author
   * Goomy
 ## Preview
-  * [LINK](https://goomy-wright.github.io/sign-in-form/)
+  * [Link](https://goomy-wright.github.io/sign-in-form/)
