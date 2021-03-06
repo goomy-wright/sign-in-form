@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>SIGN IN | SIGN UP</title>
+</head>
+<body>
+	<script type="text/javascript" src="./app.js"></script>
+
+	<div class="box">
+		<form class="container">
+			<div class="sign-label-box">
+				<h4 onclick="changeForm('sign-in')" class="sign-in-label">SIGN IN</h4>
+				<h4 onclick="changeForm('sign-up')" class="sign-up-label">SIGN UP</h4>
+			</div>
+
+			<h4 class="username-label">USERNAME</h4>
+			<input type="text" class="username" autocomplete="off" required />
+
+			<h4 class="password-label">PASSWORD</h4>
+			<input type="password" class="password" autocomplete="off" required />
+
+			<input onclick="login('sign-in')" type="submit" value="SIGN IN" class="btn">
+
+			<hr>
+			<p onclick="forgot()">Forgot your password?</p>
+		</form>
+	</div>
+
+	<div class="box">
+		<form class="container">
+			<div class="sign-label-box">
+				<h4 onclick="changeForm('sign-in')" style="color: #908a91;" class="sign-in-label">SIGN IN</h4>
+				<h4 style="color: white;" class="sign-up-label">SIGN UP</h4>
+			</div>
+
+			<h4 class="username-label">USERNAME</h4>
+			<input type="text" class="username" autocomplete="off" required />
+
+			<h4 class="email-label">EMAIL</h4>
+			<input type="email" class="email" autocomplete="off" required />
+
+			<h4 class="password-label">PASSWORD</h4>
+			<input type="password" class="password" autocomplete="off" required />
+
+			<input onclick="login('sign-up')" type="submit" value="SIGN UP" class="btn">
+
+			<hr>
+			<p onclick="changeForm('sign-in')">Already have an account?</p>
+		</form>
+	</div>
+</body>
+</html>
