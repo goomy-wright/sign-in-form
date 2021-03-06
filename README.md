@@ -1,4 +1,4 @@
-### SIMPLE SIGN IN AND SIGN UP FORM IN HTML,CSS AND JS
+## Simple sign in and sign up form in HTML, CSS and JS
 ## Author
   * Goomy [(Profile)](https://github.com/goomy-wright)
 ## Preview
